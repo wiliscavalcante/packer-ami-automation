@@ -1,0 +1,51 @@
+# Local .terraform directories
+**/.terraform/*
+
+# Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Terraform plan files
+*.tfplan
+
+# Terraform variables definition files
+*.tfvars
+
+# Ignore override files which may contain sensitive information
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Ignore CLI configuration files
+.terraformrc
+terraform.rc
+
+# Ignore any .DS_Store files (specific to macOS)
+.DS_Store
+
+# Ignore Packer temporary files and directories
+packer_cache/
+output-*/  # or specify if you know the exact output directory
+*.box
+
+# Ignore log files and directories
+*.log
+logs/
+
+# Ignore generated binaries and build artifacts
+bin/
+obj/
+
+# Ignore user-specific IDE config files
+.idea/
+.vscode/
+*.sublime-workspace
+
+# Ignore compiled binary outputs
+bin/
+*.bin
+*.exe
+*.dll
+*.so
+*.dylib
