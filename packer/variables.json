@@ -1,11 +1,11 @@
 {
     "aws_region": "sa-east-1",
-    "source_ami": "ami-0e242b0ebd8e91b4c",
+    "source_ami": "ami-xxxxxxxxxxxxxx",
     "instance_type": "t2.micro",
     "ssh_username": "ec2-user",
     "ami_name": "packer-ami-{{timestamp}}",
     "iam_instance_profile": "SSMAutomationPackerCF",
-    "resource_name": "teste-instance-prod",
+    "resource_name": "teste-instance",
     "ad_domain": "company.local",
     "resource_owner": "devopsteam@example.com",
     "bu": "MinhaUnidade",
@@ -15,8 +15,8 @@
     "app_id": "1234",
     "resource_app_role": "app",
     "env": "prod",
-    "vpc_id": "vpc-b4efa2d3",
-    "subnet_id": "subnet-08d47e590ecc0f621",
-    "security_group_id": "sg-08cbf98f1f1bb0d55"
+    "vpc_id": "vpc-xxxxxxxx",
+    "subnet_id": "subnet-xxxxxxxxxxxxxxxx",
+    "security_group_id": "sg-xxxxxxxxxxxxxxxx"
   }
   
