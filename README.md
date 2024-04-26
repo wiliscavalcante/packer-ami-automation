@@ -46,10 +46,4 @@ packer build -var-file=variables.json packer.json
 
 Este projeto foi inspirado pelo método descrito no AWS Blog: [Creating Packer images using Systems Manager Automation](https://aws.amazon.com/pt/blogs/mt/creating-packer-images-using-system-manager-automation/).
 
-## Licença
-
-Este projeto é licenciado sob a Licença MIT - veja o arquivo `LICENSE` para detalhes.
-
----
-
 **Nota**: Este documento fornece um guia geral. Para mais detalhes e configurações específicas, consulte a documentação oficial do [Terraform](https://www.terraform.io/docs/index.html) e do [Packer](https://www.packer.io/docs/index.html).
