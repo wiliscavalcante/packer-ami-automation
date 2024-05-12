@@ -2,14 +2,13 @@
 set -e
 
 # Upgrade all installed packages to their latest version
-sudo dnf update -y
+sudo yum update -y
 
 # Remove unused dependencies
-sudo dnf autoremove -y
+sudo yum autoremove -y
 
-# Remove older kernels (if necessary, here using dnf)
-sudo dnf remove $(dnf repoquery --installonly --latest-limit=-1 -q)
+# Remove older kernels (if necessary)
+sudo package-cleanup --oldkernels --count=1 -y
 
 # Clean up
-sudo dnf clean all
-# Other cleanup commands...
+sudo yum clean all
